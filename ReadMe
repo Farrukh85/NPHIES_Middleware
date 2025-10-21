@@ -1,1 +1,19 @@
-NPHIES middleware project.
+# NphiesIntegrationMiddleware
+
+This project provides a template ASP.NET Core Web API targeting .NET 8 for integrating with the NPHIES healthcare platform.
+
+## Features
+- RESTful JSON endpoints
+- Swagger UI for testing
+- Serilog for structured logging
+- Polly-based resiliency policies
+- Sample FHIR transformation and client
+- xUnit test project
+
+## Build and test
+
+```bash
+dotnet build NphiesIntegrationMiddleware.sln
+
+dotnet test NphiesIntegrationMiddleware.sln
+```

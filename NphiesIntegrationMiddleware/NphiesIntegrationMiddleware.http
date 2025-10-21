@@ -1,0 +1,6 @@
+@NphiesIntegrationMiddleware_HostAddress = http://localhost:5216
+
+GET {{NphiesIntegrationMiddleware_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
